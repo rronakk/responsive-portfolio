@@ -1,0 +1,161 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+header {
+    width: 100%;
+    background: #ffffff;       
+}
+
+body{
+    background-image: url(../images/concrete-texture.png);
+}
+#top-line{
+    height: 60px;
+    width: auto;
+    padding: 0 4%;
+    margin: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    float: right;
+    width: 100px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #777777;
+    text-align: right;
+}
+
+#header-title{
+    float: left;
+    width: 150px;
+    font-size: 26px;
+    background: #4aaaa5;
+    color: white;
+    padding: 15px;
+}
+
+h2{
+    color: #4aaaa5;
+    padding: 20px 0px 10px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+hr{
+    background: #949393;
+    height: 2px;
+    margin: 2px 0px 20px ;
+    border-top: 3px;
+}
+article{
+    background: white;
+    margin: 20px 4% 50px;
+    padding:10px 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+
+}
+.article-img{
+    float: left;
+    margin: 10px;
+}
+p{
+    line-height: 1.6;
+}
+
+label, p {
+    color: #777777;
+}
+
+a{
+    text-decoration: none;
+}
+.footer-divider{
+    color: #4aaaa5;
+    margin: 0px; 
+    border: 3px solid;
+}
+footer{
+    height: 50px;
+    margin-top:-50px;
+    background: #666666;
+    text-align: center;
+    color: #b1abab;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2a6b68;
+}
+#copyright{
+    margin-top: 20px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
+
+  
+.wrapper > div {
+    color: #d9480f;
+
+
+  }
+.text-block{
+    position: relative;
+    bottom: 40px; 
+    background: #4aaaa5;
+    color:white;
+    height: 20px;
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 640px){
+    #header-title {
+        width: 100%;
+        font-size: 36px;
+        padding: 3% 0%;
+    }
+
+    #top-line {
+        padding : 0px;
+        height: 110px;
+    }
+    .menu{
+        width : 33.33%;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 14px;
+    }
+    nav{
+        margin: 0 9%;
+    }
+
+}
+  
